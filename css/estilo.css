@@ -3,7 +3,30 @@ body {
     
 }
 
+ .img_topo{
+    width: 100%;
+
+}
+  .img_corpo{
+      width: 50%;
 
 
+  }
 
 
+  .container{
+      width: 80%;
+      margin: auto;
+
+
+  }
+  h1{
+     text-align: center;
+
+  }
+  p{
+   font-size: 1.5em;
+   text-align: justify;
+   text-indent: 40px;
+
+  }
