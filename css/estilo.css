@@ -8,8 +8,6 @@ body {
 
  .menu{
     background-color: #DEB887;
-
-
  }
  
  .letras_menu{ 
@@ -17,17 +15,37 @@ body {
 
     }
  .itens_menu{
-  text-align: center;
-
+      text-align: center;
+      line-height: 1.5;
+     text-decoration:none;
  }
 
+ .itens_menu a:link, .itens_menu a:visited{
+     color: peru;
+     text-decoration:none;
+ }
+ .itens_menu a:hover{
+     color: antiquewhite;
+ }
+ .itens_menu a:active{
+     color: grey;
+ }
+ .links{
+ line-height: 1.5;
+ text-decoration:none;
+}
+ .links a:link, .links a:visited{
+ color: peru;
+ text-decoration:none;
+}
+
  .img_topo{
-    width: 80%;
-    text-align: center;  
-    border-style: solid;
-    padding-left: 9%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+     width: 80%;
+     text-align: center;  
+     border-style: solid;
+     padding-left: 9%;
+     padding-top: 2%;
+     padding-bottom: 2%;
 }
   .img_corpo{
       width: 65%;
@@ -39,11 +57,11 @@ body {
 
   }
   .left{
-    float: left;
-    line-height: 2%;
-    padding-left: 1%;
-    padding-right: 2%;
-    padding-top: 1%;
+     float: left;
+     line-height: 2%;
+     padding-left: 1%;
+     padding-right: 2%;
+     padding-top: 1%;
 
 
   }
@@ -102,7 +120,7 @@ body {
     
   }
   .rodp2{
-     padding-left: 30%;
+     padding-left: 35%;
 
   }
 
