@@ -107,8 +107,14 @@ body {
   .botao p{
       padding-top: 5px;  
       padding-right: 45px;
-      color: black;   
+      color: black; 
+      
   }
+
+  .botao a:hover{
+    background-color: blueviolet;
+    }
+
   .pletras > p{
    font-size: 1em;
    
