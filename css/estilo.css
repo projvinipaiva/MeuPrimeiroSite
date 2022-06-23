@@ -134,4 +134,16 @@ body {
   .footerp{
       color: black;
   }
+
+  .tabela{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;  
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:bisque;
+    color:black ;
+
+  }
  
