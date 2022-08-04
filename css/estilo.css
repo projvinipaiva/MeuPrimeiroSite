@@ -138,16 +138,38 @@ body {
  /*tabela*/
   table,tr,th{
     padding: 0.5em 0.5em;
-    border: solid 3px gray;
+    border: solid 3px antiquewhite;
+    border-style: dashed;
  }
  
   th,td{
     padding: 0.5em 0.5em;
-    border: solid 2px gray;
+    border: solid 2px ;
     text-align: center;
-    width: 30em;
     color: white;
+    width: 30em;
     font-family: arial;
     font-size: 1.3em;
+    border-style: dashed ;
   }
+
+  
+
+  tr:hover {background-color: coral;}
+
+  audio{
+    width: 60%;
+  }
+
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-penel {
+    background-color: #DEB887;
+
+  }
+
+
+
+
+ 
+ 
  
