@@ -8,106 +8,85 @@
 <style>
 
       body{
-          background-color: rgb(117, 35, 35);
+        background-color: aqua;
       }
-      h1{
-          font-size: 40px;
-          background-color: #fff;
-          bottom: 20px;
+      figure{
+        text-align:center;
+        border:5px solid #fff;
       }
-      p{
-           background-color: rgb(97, 97, 97);
-           color: rgb(0, 0, 0);
-
+      .fixo{
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        margin-top: 2px;
       }
-
-     .fixo{
-          position: fixed;
-          width: 100%;
-          top: 0;
-          z-index: 1000px;
-          
-      }
-
       .main{
-         width: 100%;
-         height: 800px;
-         background-color: cornsilk;
-         position: relative;
+        height: 900px;
+        width: 100%;
+        position: relative;
       }
-
       .container{
-          margin-top: 100px;
-          
+        margin-top: 50px;
+        background-color: #ff6060;
       }
-
-     .topoesq{
-        width: 20%;
-        background-color: antiquewhite;
+      .topoesq{
+        background-color: greenyellow;
         position: absolute;
         top: 16px;
         left: 16px;
-
-     }
-     .topodir{
-        width: 20%;
-        background-color:chocolate;
+      }
+      .topodir{
+        background-color: blue;
         position: absolute;
         top: 16px;
         right: 16px;
-
-     }
-     .centro{
-        width: 20%;
-        background-color:goldenrod;
-        position: absolute;
-        right: 40%;
-        top: 400px;
-
-     }
-     .baixoesq{
-        width: 20%;
-        background-color:aqua;
+      }
+      .baixoesq{
+        background-color: orange;
         position: absolute;
         bottom: 16px;
         left: 16px;
-
-     }
-     .baixodir{
-        width: 20%;
-        background-color:darkslateblue;
+      }
+      .baixodir{
+        background-color: violet;
         position: absolute;
         bottom: 16px;
         right: 16px;
+      }
+      .centro{
+        background-color: green;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+      }
+      div{
+        font-size: 30pt;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>TOPO MENU</h1>
+    </header>
 
-     }
-
-
-
-</style>
-    
-</head>
-<body>
-    <header> 
-        <h1 class="fixo">Aprendendo css interno</h1>
-        <!---
+    <h1  class="fixo">TESTE POSITION</h1>
+    <!---
         <p>Elden Ring é um game bastante aguardado pelo público, e ao menos para a mídia internacional todas as promessas foram cumpridas com louvor. Uma prova disso é que o game já figura na lista dos títulos com melhores médias no Metacritic.</p>
         <p>No momento da publicação desta notícia, o game era o 15º mais bem avaliado com 97 de média na versão para PlayStation 5 (e 95 nas edições para Xbox Series X/S e PC), e existe a chance de que essa colocação melhore um pouco mais ao longo dos próximos dias. No caso da plataforma da Sony, 24 dos 40 sites que registraram suas notas atribuíram nota máxima ao RPG.</p>
         <ul style="background-color: grey;font-size: bold;">
         <li style="color: black;">eu estou com fome</li>
         <li style="color: black;">eu quero comer</li>
         </ul> -->
-    </header>
     <div class="container">
-         <div class="main">
-                <h1>Aprendendo  Z</h1>
-                <div class="topoesq">topo esquerda</div>
-                <div class="topodir">topo direita</div>
-                <div class="centro">topo esquerda</div>
-                <div class="baixoesq">topo esuqrdo</div>
-                <div class="baixodir">topo esquerdo</div>
-         </div>    
+      <div class="main">
+        <div class="topoesq">teste</div>
+        <div class="topodir">teste</div>
+        <div class="baixoesq">teste</div>
+        <div class="baixodir">teste</div>
+        <div class="centro">teste</div>
+      </div>
     </div>
+  </body>
    
 
 </body>
