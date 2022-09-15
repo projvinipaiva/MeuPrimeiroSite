@@ -12,7 +12,7 @@ header{
 
 }
 
-.img_logo{
+.img_logoo{
   height: 150px;
   text-align: center;
 }
@@ -70,7 +70,7 @@ header{
      text-align: center;  
      border-style: solid;
      padding-left: 9%;
-     padding-top: 20%;
+     padding-top: 17%;
      padding-bottom: 2%;
 }
   .img_corpo{
@@ -267,15 +267,38 @@ header{
    .form{
     background-color: rgba(9, 7, 6, 0.6);
   }
-
+  .img_topo{
+    margin-top:25px;
+  }
+  
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 601px) {
 
   header{
-      background-color: #DEB887;
       flex-direction: row;
   }
+  .form{
+    background-color: rgba(9, 7, 6, 0.6);
+  }
+  .img_topo{
+    margin-bottom: 30px;
+  
+  }
+  .img_logoo{
+    float: left;
+  }
+  .itens_menu ul li{
+    display: inline;
+    margin-left: 1%;
+  }
+  .itens_menu{
+    position: absolute;
+    left: 20%;
+    top: 2%;
+  }
+
+
 
 }
 
