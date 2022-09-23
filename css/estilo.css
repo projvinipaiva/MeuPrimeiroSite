@@ -204,7 +204,7 @@ header{
     box-sizing: border-box;
   }
 
-  input[type=text], select, input[type=tel], input[type=emeil], input[type=date], textarea{
+ input[type=text], select, input[type=tel], input[type=e-meil], input[type=datalist],  input[type=nome], textarea{
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
