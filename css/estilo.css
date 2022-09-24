@@ -27,10 +27,14 @@ header{
   right: 0;
 }
 .figure{
-
  text-align: center;
+
 }
- 
+
+.tabela{
+  width: 600px;
+}
+
  .letras_menu{ 
     background-color: #DEB887;
 
@@ -173,6 +177,7 @@ header{
     padding: 0.5em 0.5em;
     border: solid 3px antiquewhite;
     border-style: dashed;
+    width: 600px;
  }
  
   th,td{
@@ -260,47 +265,59 @@ header{
    @media screen and (max-width: 600px) {
 
     .col-25, .col-75, input[type=submit]{
-       width: 100%;
-       margin-top: 0;
-   }
+      width: 100%;
+      margin-top: 0%;
+  }
 
-   .form{
-    background-color: rgba(9, 7, 6, 0.6);
+  .logoo{
+      text-align: center;
   }
-  .img_topo{
-    margin-top:25px;
+
+  .banner{
+      margin-top: 15%;
+      padding-top: 160px;
   }
-  
 }
 
 @media screen and (min-width: 601px) {
 
-  header{
+    header{
       flex-direction: row;
   }
-  .form{
-    background-color: rgba(9, 7, 6, 0.6);
-  }
   .img_topo{
-    margin-bottom: 30px;
-  
+    padding-top: 50px;
   }
-  .img_logoo{
-    float: left;
-  }
-  .itens_menu ul li{
-    display: inline;
-    margin-left: 1%;
-  }
+
   .itens_menu{
-    position: absolute;
-    left: 20%;
-    top: 2%;
+      position: absolute;
+      right: 1%;
+      width: 80%;
+      top: 60px;
   }
 
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+      padding-top: 20%;
+  }
 
+  .logoo{
+      text-align: left;
+      width: 90%;
+  }
 
+  .img_logoo{
+      width: 15%;
+      left: 0%;
+  }
+  .banner{
+    padding-bottom: 10px;
+    top: 100px;
+  }
 }
+
+
+
 
 
 
